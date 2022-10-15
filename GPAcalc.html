@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>VT-CSE Course Planner</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College, VEL TECH, VT UNIVERSITY, Avadi,chennai, India">
+ <meta name="author" content="@ETECH">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/logooo.png">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="index.html">🏛️Home</a></li>
+			<li><a href="course.html"> 📚Course</a></li>
+			<li><a href="download.html">🪘 Download</a></li>
+			<li><a href="login.html">👨‍💻Login</a></li>
+      <li><a href="GPAcalc.html">🔠GPA calc</a></li>
+      <li><a href="onlinecale.html">📆Online cale</a></li>
+      <li><a href="upcomingev.html">🏟️Upcoming Events</a></li>
+	  <li><a href="courseplanner.html">🦹‍♂️Course Plnr</a></li>
+
+		</ul> 
+	</nav>
+    <!DOCTYPE html> <html>
+
+<head> <meta charset="utf-8"> <link rel="stylesheet" type="text/css"
+href="styles.css">
+ <title>CALCULATION OF GPA
+</title> 
+<p> Please Enter Your Grade as  (S,A,B,C,D,F)</p>
+	<script type="text/javascript">
+	function calculate()
+	{
+		var x=document.getElementById("result1").value;
+		var y=document.getElementById("result2").value;
+		var z=document.getElementById("result3").value;
+		var k=document.getElementById("result4").value;
+                                       var q=document.getElementById("result5").value;
+		var result1=parseFloat(x) + parseFloat(y) + parseFloat(z) 
+		+ parseFloat(k)+ parseFloat(q); // conversion to numbers; this is necessary for +, other    operators will automatically convert 
+		var result5=x%y;
+		
+		
+
+		var html="<p>Your GPA is: "+result1/4+"</p>"; 
+	
+
+
+		
+		document.getElementById("total").innerHTML=html;
+	}
+	
+	
+	</script>
+</head>
+
+<body>
+
+
+
+
+
+
+<script language="JavaScript">
+
+function calculateGpa (form) {
+    var gpa = form.gpa1.value;
+        
+        if(gpa=="S"){
+             gpa=9;
+                 }
+        if (gpa == "A") {
+             gpa = 8;
+             }
+        if (gpa == "B") {
+             gpa = 7;
+             }
+        if (gpa == "C") {
+             gpa = 6;
+             }
+        if (gpa == "D") {
+             gpa = 5;
+        	}
+        if (gpa == "F") {
+             gpa = 0;
+        	}
+        if (gpa == "s") {
+             gpa = 9;
+             }
+        if (gpa == "a") {
+             gpa = 8;
+             }
+        if (gpa == "b") {
+             gpa = 7;
+             }
+        if (gpa == "c") {
+             gpa = 6;
+        	}
+        if (gpa == "d") {
+             gpa = 5;
+                } 
+        if(gpa =="f"){
+             gpa =0;
+        	}
+    document.getElementById("result1").innerHTML = gpa;
+}
+</script>
+
+
+<body>
+
+<form action="" id="vt_cse001">Enter your grade in the form of a letter grade :<br>
+
+<input type="text" name="gpa1" value="">
+<input type="button" name="button" value="Calculate" onClick="calculateGpa(this.form)">
+</form>
+<div id="result1"></div>
+
+
+<script language="JavaScript">
+
+function calculateGpa2 (form) {
+    var gpa = form.gpa2.value;
+
+           if(gpa=="S"){
+             gpa=9;
+             }
+        if (gpa == "A") {
+             gpa = 8;
+             }
+        if (gpa == "B") {
+             gpa = 7;
+             }
+        if (gpa == "C") {
+             gpa = 6;
+             }
+        if (gpa == "D") {
+             gpa = 5;
+        	}
+        if (gpa == "F") {
+             gpa = 0;
+        	}
+        if (gpa == "s") {
+             gpa = 9;
+             }
+        if (gpa == "a") {
+             gpa = 8;
+             }
+        if (gpa == "b") {
+             gpa = 7;
+             }
+        if (gpa == "c") {
+             gpa = 6;
+        	}
+        if (gpa == "d") {
+             gpa = 5;
+                } 
+        if(gpa =="f"){
+             gpa =0;
+        	}
+    document.getElementById("result2").innerHTML = gpa;
+}
+</script>
+
+
+<body>
+
+<form action="" id="it4153">Enter your grade in the form of a letter grade for class IT 4153:<br>
+
+<input type="text" name="gpa2" value="">
+<input type="button" name="button" value="Calculate" onClick="calculateGpa2(this.form)">
+</form>
+<div id="result2"></div>
+
+
+<script language="JavaScript">
+function calculateGpa3 (form) {
+    var gpa = form.gpa3.value;
+       
+       
+           if(gpa=="S"){
+             gpa=9;
+             }
+        if (gpa == "A") {
+             gpa = 8;
+             }
+        if (gpa == "B") {
+             gpa = 7;
+             }
+        if (gpa == "C") {
+             gpa = 6;
+             }
+        if (gpa == "D") {
+             gpa = 5;
+        	}
+        if (gpa == "F") {
+             gpa = 0;
+        	}
+        if (gpa == "s") {
+             gpa = 9;
+             }
+        if (gpa == "a") {
+             gpa = 8;
+             }
+        if (gpa == "b") {
+             gpa = 7;
+             }
+        if (gpa == "c") {
+             gpa = 6;
+        	}
+        if (gpa == "d") {
+             gpa = 5;
+                } 
+        if(gpa =="f"){
+             gpa =0;
+        	}
+    document.getElementById("result3").innerHTML = gpa;
+}
+</script>
+
+
+<body>
+
+<form action="" id="etech">Enter your grade in the form of a letter :<br>
+
+<input type="text" name="gpa3" value="">
+<input type="button" name="button" value="Calculate" onClick="calculateGpa3(this.form)">
+</form>
+<div id="result3"></div>
+
+
+<script language="JavaScript">
+function calculateGpa4(form) {
+    var gpa = form.gpa4.value;
+
+      
+           if(gpa=="S"){
+             gpa=9;
+             }
+        if (gpa == "A") {
+             gpa = 8;
+             }
+        if (gpa == "B") {
+             gpa = 7;
+             }
+        if (gpa == "C") {
+             gpa = 6;
+             }
+        if (gpa == "D") {
+             gpa = 5;
+        	}
+        if (gpa == "F") {
+             gpa = 0;
+        	}
+        if (gpa == "s") {
+             gpa = 9;
+             }
+        if (gpa == "a") {
+             gpa = 8;
+             }
+        if (gpa == "b") {
+             gpa = 7;
+             }
+        if (gpa == "c") {
+             gpa = 6;
+        	}
+        if (gpa == "d") {
+             gpa = 5;
+                } 
+        if(gpa =="f"){
+             gpa =0;
+        	}
+    document.getElementById("result4").innerHTML = gpa;
+
+
+}
+</script>
+
+
+<body>
+
+<form action="" id="it5413">Enter your grade in the form of a letter grade for class IT 5413:<br>
+
+<input type="text" name="gpa4" value="">
+<input type="button" name="button" value="Calculate" onClick="calculateGpa4(this.form)">
+</form>
+<div id="result4"></div>
+<br>
+<input type="button" id="final" name="button" value="Calculate" onClick="calculate()">
+
+<script type="text/javascript">
+	function calculate()
+	{
+		var x=document.getElementById("result1").value;
+		var y=document.getElementById("result2").value;
+		var z=document.getElementById("result3").value;
+		var a=document.getElementById("result4").value;
+		var result5=parseFloat(x) + parseFloat(y) + parseFloat(z) 
+		+ parseFloat(a); // conversion to numbers; this is necessary for +, other operators will automatically convert 
+		var result5=x%y;
+		
+		
+		var html="<p>Your GPA is: "+result5+"</p>"; 
+	
+
+
+		
+		document.getElementById("total").innerHTML=html;
+	}
+	
+	
+	</script>
+
+
+
+
+
+<div id="total"></div>
+<br><br><br><br><br> <br><br><br><br><br><br>
+<div id="result"></div>
+</body>
+
+
+</html>
+	

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>VT-CSE Course Planner</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="College, VEL TECH, VT UNIVERSITY, Avadi,chennai, India">
+ <meta name="author" content="@ETECH">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="javascript/js.js="></script>
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<img src="images/logooo.png">
+	<content id="search">
+		<form>
+  <input type="text" name="search" placeholder="Search anything..." onclick="window.location.href='search.html'">
+</form>
+	</content>
+	<nav>
+		<ul>
+			<li><a href="index.html">🏛️Home</a></li>
+			<li><a href="course.html"> 📚Course Planner</a></li>
+			<li><a href="download.html">🪘 Download</a></li>
+			<li><a href="login.html">👨‍💻Login</a></li>
+      <li><a href="GPAcalc.html">🔠GPA calc</a></li>
+      <li><a href="onlinecale.html">📆Online cale</a></li>
+      <li><a href="upcomingev.html">🏟️Upcoming Events</a></li>
+	
+
+	 
+		</ul> 
+	</nav>
+</header>
+<br>
+<div class="slideshow-container">
+
+<div class="iambrpslides fade">
+  <div class="numbertext">01 / 03</div>
+  <img src="./images/pp.jpg">
+ </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">02 / 03</div>
+  <img src="./images/ppp.jpg">
+  </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">03 / 03</div>
+  <img src="./images/c33.jpg">
+</div>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("iambrpslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2600); // This is for Changing image every 2.5 seconds
+}
+</script>
+<br>
+		
+		<script type="text/javascript">
+  document.title="Home";
+</script>
+		
+				
+<script src="scripts/slider.js"></script>
+<div class="mainContent">
+	<div class="Content">
+		<article class="topContent">
+			<header>
+			 <h3><a href="#" title="My First Post"> About...👇 </a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info"></p>
+			</footer>
+			<content>
+<p>➡️  VEL TECH group of educational institutions was established in 1990 by a well known industrialist couple dedicated to public service,<br>
+	 Dr.R.Rangarajan and Dr.R. Sakunthala Rangarajan, who by then had 30 years of experience in developing industries and international<br>
+	trade. What took off as a modest school now stands as a monument of glory for Chennai city. A student volume of above 12,000 throngs<br>
+	the various educational institutions of VEL TECH group.<br>
+
+</p>
+			</content>
+		</article>
+
+		<article class="bottomContent">
+			<header>
+			<h3><a href="#" title="tech">👇 News</a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info"></p>
+			</footer>
+			<content>
+				<h>EXPERTS SAYS..⬇️</h>
+<p>
+	Contracts, transactions, and the records of them are among the defining structures in our economic, legal, and<br>
+	 political systems. They protect assets and set organizational boundaries. They establish and verify identities <br>
+	 and chronicle events. They govern interactions among nations, organizations, communities, and individuals.<br>
+	 Blockchain promises to solve this problem. The technology at the heart of bitcoin and other virtual currencies, blockchain
+	  is an open, distributed ledger that can record transactions between two parties efficiently and in a verifiable
+	   and permanent way. The ledger itself can also be programmed to trigger transactions automatically.See the sidebar “How Blockchain Works.
+
+</p>
+			</content>
+		</article>
+
+		
+	</div>
+</div>
+
+<footer class="mainFooter">
+	<p>Copyright &copy <a href="https://www.facebook.com/IamBRP">@etech group</a> </p>
+	
+</footer>
+
+</body>
+</html>
